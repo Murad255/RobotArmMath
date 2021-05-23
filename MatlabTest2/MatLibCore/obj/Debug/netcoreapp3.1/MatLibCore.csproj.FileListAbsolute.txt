@@ -1,0 +1,14 @@
+G:\GoogleDisck\Main\C#\MatlabTest2\MatLibCore\bin\Debug\netcoreapp3.1\MatLibCore.deps.json
+G:\GoogleDisck\Main\C#\MatlabTest2\MatLibCore\bin\Debug\netcoreapp3.1\MatLibCore.dll
+G:\GoogleDisck\Main\C#\MatlabTest2\MatLibCore\bin\Debug\netcoreapp3.1\MatLibCore.pdb
+G:\GoogleDisck\Main\C#\MatlabTest2\MatLibCore\bin\Debug\netcoreapp3.1\baseA.dll
+G:\GoogleDisck\Main\C#\MatlabTest2\MatLibCore\bin\Debug\netcoreapp3.1\MWArray.dll
+G:\GoogleDisck\Main\C#\MatlabTest2\MatLibCore\bin\Debug\netcoreapp3.1\testEx.dll
+G:\GoogleDisck\Main\C#\MatlabTest2\MatLibCore\bin\Debug\netcoreapp3.1\MWArray.xml
+G:\GoogleDisck\Main\C#\MatlabTest2\MatLibCore\obj\Debug\netcoreapp3.1\MatLibCore.csprojAssemblyReference.cache
+G:\GoogleDisck\Main\C#\MatlabTest2\MatLibCore\obj\Debug\netcoreapp3.1\MatLibCore.AssemblyInfoInputs.cache
+G:\GoogleDisck\Main\C#\MatlabTest2\MatLibCore\obj\Debug\netcoreapp3.1\MatLibCore.AssemblyInfo.cs
+G:\GoogleDisck\Main\C#\MatlabTest2\MatLibCore\obj\Debug\netcoreapp3.1\MatLibCore.csproj.CoreCompileInputs.cache
+G:\GoogleDisck\Main\C#\MatlabTest2\MatLibCore\obj\Debug\netcoreapp3.1\MatLibCore.csproj.CopyComplete
+G:\GoogleDisck\Main\C#\MatlabTest2\MatLibCore\obj\Debug\netcoreapp3.1\MatLibCore.dll
+G:\GoogleDisck\Main\C#\MatlabTest2\MatLibCore\obj\Debug\netcoreapp3.1\MatLibCore.pdb

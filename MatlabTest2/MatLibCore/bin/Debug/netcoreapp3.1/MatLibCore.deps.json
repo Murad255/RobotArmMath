@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MatLibCore/1.0.0": {
+        "dependencies": {
+          "baseA": "0.0.0.0",
+          "MWArray": "2.18.1.0",
+          "testEx": "0.0.0.0"
+        },
+        "runtime": {
+          "MatLibCore.dll": {}
+        }
+      },
+      "baseA/0.0.0.0": {
+        "runtime": {
+          "baseA.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "MWArray/2.18.1.0": {
+        "runtime": {
+          "MWArray.dll": {
+            "assemblyVersion": "2.18.1.0",
+            "fileVersion": "2.18.1.0"
+          }
+        }
+      },
+      "testEx/0.0.0.0": {
+        "runtime": {
+          "testEx.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MatLibCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "baseA/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MWArray/2.18.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "testEx/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

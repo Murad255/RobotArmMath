@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/jYoNU5rb3z0JUzNtEvWHFtou+IHvJtSrulEthFpo64qt1ulUYGsupWOzT0D15yKy8VxwMyoJ78w4UzNGb3vtw==",
+  "success": true,
+  "projectFilePath": "G:\\GoogleDisck\\Main\\C#\\MatlabTest2\\MatLib\\MatLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\murad\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\murad\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

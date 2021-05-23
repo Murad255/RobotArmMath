@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="baseA">
+      <HintPath>..\..\Matlab LIb\baseA\for_redistribution_files_only\baseA.dll</HintPath>
+    </Reference>
+    <Reference Include="MWArray">
+      <HintPath>C:\Program Files\MATLAB\R2018b\toolbox\dotnetbuilder\bin\win64\v4.0\MWArray.dll</HintPath>
+    </Reference>
+    <Reference Include="testEx">
+      <HintPath>..\MatlabTest2\testEx.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

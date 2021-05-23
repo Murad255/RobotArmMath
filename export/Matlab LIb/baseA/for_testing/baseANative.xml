@@ -1,0 +1,1728 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>baseANative</name>
+    </assembly>
+    <members>
+        <member name="T:baseANative.Class1">
+            <summary>
+            The Class1 class provides a CLS compliant, Object (native) interface to the MATLAB
+            functions contained in the files:
+            <newpara></newpara>
+            G:\GoogleDisck\ó÷¸áà_online\SIENCE\Simulation_matlab\export\baseA.m
+            <newpara></newpara>
+            G:\GoogleDisck\ó÷¸áà_online\SIENCE\Simulation_matlab\export\begin.m
+            <newpara></newpara>
+            G:\GoogleDisck\ó÷¸áà_online\SIENCE\Simulation_matlab\export\CalculateI.m
+            <newpara></newpara>
+            G:\GoogleDisck\ó÷¸áà_online\SIENCE\Simulation_matlab\export\forwardKinematics.m
+            <newpara></newpara>
+            G:\GoogleDisck\ó÷¸áà_online\SIENCE\Simulation_matlab\export\inverceKinematic.m
+            <newpara></newpara>
+            G:\GoogleDisck\ó÷¸áà_online\SIENCE\Simulation_matlab\export\inverceKinematicI.m
+            <newpara></newpara>
+            G:\GoogleDisck\ó÷¸áà_online\SIENCE\Simulation_matlab\export\robot_arm_I.m
+            <newpara></newpara>
+            G:\GoogleDisck\ó÷¸áà_online\SIENCE\Simulation_matlab\export\robot_arm_lin.m
+            </summary>
+            <remarks>
+            @Version 4.0
+            </remarks>
+        </member>
+        <member name="M:baseANative.Class1.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Runtime instance.
+            </summary>
+        </member>
+        <member name="M:baseANative.Class1.#ctor">
+            <summary>
+            Constructs a new instance of the Class1 class.
+            </summary>
+        </member>
+        <member name="M:baseANative.Class1.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:baseANative.Class1.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:baseANative.Class1.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:baseANative.Class1.baseA">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the baseA MATLAB function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.baseA(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the baseA MATLAB function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.baseA(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the baseA function in which the input and output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:baseANative.Class1.begin">
+             <summary>
+             Provides a void output, 0-input Objectinterface to the begin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             axes('Xlim',[-900 900], 'Ylim',[-900 900], 'Zlim',[-500 900]);
+             </remarks>
+            
+        </member>
+        <member name="M:baseANative.Class1.begin(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the begin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             axes('Xlim',[-900 900], 'Ylim',[-900 900], 'Zlim',[-500 900]);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.begin(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the begin function in which the input and output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             axes('Xlim',[-900 900], 'Ylim',[-900 900], 'Zlim',[-500 900]);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:baseANative.Class1.CalculateI">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the CalculateI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             indicator wrist calculation
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.CalculateI(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the CalculateI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             indicator wrist calculation
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.CalculateI(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the CalculateI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             indicator wrist calculation
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.CalculateI(System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 3-input Objectinterface to the CalculateI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             indicator wrist calculation
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.CalculateI(System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 4-input Objectinterface to the CalculateI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             indicator wrist calculation
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.CalculateI(System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 5-input Objectinterface to the CalculateI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             indicator wrist calculation
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <param name="A5">Input argument #5</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.CalculateI(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 6-input Objectinterface to the CalculateI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             indicator wrist calculation
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <param name="A5">Input argument #5</param>
+             <param name="A6">Input argument #6</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.CalculateI(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the CalculateI MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             indicator wrist calculation
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.CalculateI(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the CalculateI MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             indicator wrist calculation
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.CalculateI(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the CalculateI MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             indicator wrist calculation
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.CalculateI(System.Int32,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 3-input Object interface to the CalculateI MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             indicator wrist calculation
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.CalculateI(System.Int32,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 4-input Object interface to the CalculateI MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             indicator wrist calculation
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.CalculateI(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 5-input Object interface to the CalculateI MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             indicator wrist calculation
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <param name="A5">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.CalculateI(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 6-input Object interface to the CalculateI MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             indicator wrist calculation
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <param name="A5">Input argument #5</param>
+             <param name="A6">Input argument #6</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.CalculateI(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the CalculateI function in which the input and output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             indicator wrist calculation
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:baseANative.Class1.forwardKinematics">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the forwardKinematics MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÎÇÊ + èçîáðàçèòü ìîäåëü ðîáîòà ïðè showFlag=1, reachFlag =0 â ñëå÷àå
+             íåâîçìîæíîñòè äîñòèæåíèÿ òî÷êè
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.forwardKinematics(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the forwardKinematics MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÎÇÊ + èçîáðàçèòü ìîäåëü ðîáîòà ïðè showFlag=1, reachFlag =0 â ñëå÷àå
+             íåâîçìîæíîñòè äîñòèæåíèÿ òî÷êè
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.forwardKinematics(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the forwardKinematics MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÎÇÊ + èçîáðàçèòü ìîäåëü ðîáîòà ïðè showFlag=1, reachFlag =0 â ñëå÷àå
+             íåâîçìîæíîñòè äîñòèæåíèÿ òî÷êè
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.forwardKinematics(System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 3-input Objectinterface to the forwardKinematics MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÎÇÊ + èçîáðàçèòü ìîäåëü ðîáîòà ïðè showFlag=1, reachFlag =0 â ñëå÷àå
+             íåâîçìîæíîñòè äîñòèæåíèÿ òî÷êè
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.forwardKinematics(System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 4-input Objectinterface to the forwardKinematics MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÎÇÊ + èçîáðàçèòü ìîäåëü ðîáîòà ïðè showFlag=1, reachFlag =0 â ñëå÷àå
+             íåâîçìîæíîñòè äîñòèæåíèÿ òî÷êè
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.forwardKinematics(System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 5-input Objectinterface to the forwardKinematics MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÎÇÊ + èçîáðàçèòü ìîäåëü ðîáîòà ïðè showFlag=1, reachFlag =0 â ñëå÷àå
+             íåâîçìîæíîñòè äîñòèæåíèÿ òî÷êè
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <param name="A5">Input argument #5</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.forwardKinematics(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 6-input Objectinterface to the forwardKinematics MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÎÇÊ + èçîáðàçèòü ìîäåëü ðîáîòà ïðè showFlag=1, reachFlag =0 â ñëå÷àå
+             íåâîçìîæíîñòè äîñòèæåíèÿ òî÷êè
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <param name="A5">Input argument #5</param>
+             <param name="A6">Input argument #6</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.forwardKinematics(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the forwardKinematics MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÎÇÊ + èçîáðàçèòü ìîäåëü ðîáîòà ïðè showFlag=1, reachFlag =0 â ñëå÷àå
+             íåâîçìîæíîñòè äîñòèæåíèÿ òî÷êè
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.forwardKinematics(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the forwardKinematics MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÎÇÊ + èçîáðàçèòü ìîäåëü ðîáîòà ïðè showFlag=1, reachFlag =0 â ñëå÷àå
+             íåâîçìîæíîñòè äîñòèæåíèÿ òî÷êè
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.forwardKinematics(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the forwardKinematics MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÎÇÊ + èçîáðàçèòü ìîäåëü ðîáîòà ïðè showFlag=1, reachFlag =0 â ñëå÷àå
+             íåâîçìîæíîñòè äîñòèæåíèÿ òî÷êè
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.forwardKinematics(System.Int32,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 3-input Object interface to the forwardKinematics MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÎÇÊ + èçîáðàçèòü ìîäåëü ðîáîòà ïðè showFlag=1, reachFlag =0 â ñëå÷àå
+             íåâîçìîæíîñòè äîñòèæåíèÿ òî÷êè
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.forwardKinematics(System.Int32,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 4-input Object interface to the forwardKinematics MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÎÇÊ + èçîáðàçèòü ìîäåëü ðîáîòà ïðè showFlag=1, reachFlag =0 â ñëå÷àå
+             íåâîçìîæíîñòè äîñòèæåíèÿ òî÷êè
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.forwardKinematics(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 5-input Object interface to the forwardKinematics MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÎÇÊ + èçîáðàçèòü ìîäåëü ðîáîòà ïðè showFlag=1, reachFlag =0 â ñëå÷àå
+             íåâîçìîæíîñòè äîñòèæåíèÿ òî÷êè
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <param name="A5">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.forwardKinematics(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 6-input Object interface to the forwardKinematics MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÎÇÊ + èçîáðàçèòü ìîäåëü ðîáîòà ïðè showFlag=1, reachFlag =0 â ñëå÷àå
+             íåâîçìîæíîñòè äîñòèæåíèÿ òî÷êè
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <param name="A5">Input argument #5</param>
+             <param name="A6">Input argument #6</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.forwardKinematics(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the forwardKinematics function in which the input and
+             output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             ÎÇÊ + èçîáðàçèòü ìîäåëü ðîáîòà ïðè showFlag=1, reachFlag =0 â ñëå÷àå
+             íåâîçìîæíîñòè äîñòèæåíèÿ òî÷êè
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematic">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the inverceKinematic MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematic(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the inverceKinematic MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematic(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the inverceKinematic MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematic(System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 3-input Objectinterface to the inverceKinematic MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematic(System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 4-input Objectinterface to the inverceKinematic MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematic(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the inverceKinematic MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematic(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the inverceKinematic MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematic(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the inverceKinematic MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematic(System.Int32,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 3-input Object interface to the inverceKinematic MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematic(System.Int32,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 4-input Object interface to the inverceKinematic MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematic(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the inverceKinematic function in which the input and
+             output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematicI">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the inverceKinematicI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematicI(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the inverceKinematicI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematicI(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the inverceKinematicI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematicI(System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 3-input Objectinterface to the inverceKinematicI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematicI(System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 4-input Objectinterface to the inverceKinematicI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematicI(System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 5-input Objectinterface to the inverceKinematicI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <param name="sign_hand">Input argument #5</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematicI(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 6-input Objectinterface to the inverceKinematicI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <param name="sign_hand">Input argument #5</param>
+             <param name="sign_elbow">Input argument #6</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematicI(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 7-input Objectinterface to the inverceKinematicI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <param name="sign_hand">Input argument #5</param>
+             <param name="sign_elbow">Input argument #6</param>
+             <param name="or_ind">Input argument #7</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematicI(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the inverceKinematicI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematicI(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the inverceKinematicI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematicI(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the inverceKinematicI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematicI(System.Int32,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 3-input Object interface to the inverceKinematicI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematicI(System.Int32,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 4-input Object interface to the inverceKinematicI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematicI(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 5-input Object interface to the inverceKinematicI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <param name="sign_hand">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematicI(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 6-input Object interface to the inverceKinematicI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <param name="sign_hand">Input argument #5</param>
+             <param name="sign_elbow">Input argument #6</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematicI(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 7-input Object interface to the inverceKinematicI MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <param name="sign_hand">Input argument #5</param>
+             <param name="sign_elbow">Input argument #6</param>
+             <param name="or_ind">Input argument #7</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.inverceKinematicI(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the inverceKinematicI function in which the input and
+             output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             d=[0;150;0;430;0;60];
+             a=[0;430;-20;0;0;0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_I">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the robot_arm_I MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_I(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the robot_arm_I MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_I(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the robot_arm_I MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_I(System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 3-input Objectinterface to the robot_arm_I MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_I(System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 4-input Objectinterface to the robot_arm_I MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_I(System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 5-input Objectinterface to the robot_arm_I MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <param name="A5">Input argument #5</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_I(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 6-input Objectinterface to the robot_arm_I MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <param name="A5">Input argument #5</param>
+             <param name="A6">Input argument #6</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_I(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 7-input Objectinterface to the robot_arm_I MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <param name="A5">Input argument #5</param>
+             <param name="A6">Input argument #6</param>
+             <param name="showFlag">Input argument #7</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_I(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the robot_arm_I MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_I(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the robot_arm_I MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_I(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the robot_arm_I MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_I(System.Int32,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 3-input Object interface to the robot_arm_I MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_I(System.Int32,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 4-input Object interface to the robot_arm_I MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_I(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 5-input Object interface to the robot_arm_I MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <param name="A5">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_I(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 6-input Object interface to the robot_arm_I MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <param name="A5">Input argument #5</param>
+             <param name="A6">Input argument #6</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_I(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 7-input Object interface to the robot_arm_I MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A1">Input argument #1</param>
+             <param name="A2">Input argument #2</param>
+             <param name="A3">Input argument #3</param>
+             <param name="A4">Input argument #4</param>
+             <param name="A5">Input argument #5</param>
+             <param name="A6">Input argument #6</param>
+             <param name="showFlag">Input argument #7</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_I(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the robot_arm_I function in which the input and output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the robot_arm_lin MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the robot_arm_lin MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the robot_arm_lin MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin(System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 3-input Objectinterface to the robot_arm_lin MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin(System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 4-input Objectinterface to the robot_arm_lin MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin(System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 5-input Objectinterface to the robot_arm_lin MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <param name="i1">Input argument #5</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 6-input Objectinterface to the robot_arm_lin MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <param name="i1">Input argument #5</param>
+             <param name="i2">Input argument #6</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 7-input Objectinterface to the robot_arm_lin MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <param name="i1">Input argument #5</param>
+             <param name="i2">Input argument #6</param>
+             <param name="i3">Input argument #7</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 8-input Objectinterface to the robot_arm_lin MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <param name="i1">Input argument #5</param>
+             <param name="i2">Input argument #6</param>
+             <param name="i3">Input argument #7</param>
+             <param name="showFlag">Input argument #8</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the robot_arm_lin MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the robot_arm_lin MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the robot_arm_lin MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin(System.Int32,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 3-input Object interface to the robot_arm_lin MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin(System.Int32,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 4-input Object interface to the robot_arm_lin MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 5-input Object interface to the robot_arm_lin MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <param name="i1">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 6-input Object interface to the robot_arm_lin MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <param name="i1">Input argument #5</param>
+             <param name="i2">Input argument #6</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 7-input Object interface to the robot_arm_lin MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <param name="i1">Input argument #5</param>
+             <param name="i2">Input argument #6</param>
+             <param name="i3">Input argument #7</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 8-input Object interface to the robot_arm_lin MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="z">Input argument #3</param>
+             <param name="A">Input argument #4</param>
+             <param name="i1">Input argument #5</param>
+             <param name="i2">Input argument #6</param>
+             <param name="i3">Input argument #7</param>
+             <param name="showFlag">Input argument #8</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:baseANative.Class1.robot_arm_lin(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the robot_arm_lin function in which the input and
+             output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             ÏÇÊ+èçîáðàçèòü ìîäåëü ðîáîòà
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:baseANative.Class1.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+    </members>
+</doc>

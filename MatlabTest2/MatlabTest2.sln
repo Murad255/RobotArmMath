@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatlabTest2", "MatlabTest2\MatlabTest2.csproj", "{36249A87-B5F4-413B-84BF-F3DA80B94542}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatLibCore", "MatLibCore\MatLibCore.csproj", "{666F2DAF-ECA3-41E4-87C3-075BCAF7B1F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatlabTestCore", "MatlabTestCore\MatlabTestCore.csproj", "{FD48D4B2-7714-4B09-B951-ECC594316411}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36249A87-B5F4-413B-84BF-F3DA80B94542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36249A87-B5F4-413B-84BF-F3DA80B94542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36249A87-B5F4-413B-84BF-F3DA80B94542}.Debug|x64.ActiveCfg = Debug|x64
+		{36249A87-B5F4-413B-84BF-F3DA80B94542}.Debug|x64.Build.0 = Debug|x64
+		{36249A87-B5F4-413B-84BF-F3DA80B94542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36249A87-B5F4-413B-84BF-F3DA80B94542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36249A87-B5F4-413B-84BF-F3DA80B94542}.Release|x64.ActiveCfg = Release|x64
+		{36249A87-B5F4-413B-84BF-F3DA80B94542}.Release|x64.Build.0 = Release|x64
+		{666F2DAF-ECA3-41E4-87C3-075BCAF7B1F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{666F2DAF-ECA3-41E4-87C3-075BCAF7B1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{666F2DAF-ECA3-41E4-87C3-075BCAF7B1F9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{666F2DAF-ECA3-41E4-87C3-075BCAF7B1F9}.Debug|x64.Build.0 = Debug|Any CPU
+		{666F2DAF-ECA3-41E4-87C3-075BCAF7B1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{666F2DAF-ECA3-41E4-87C3-075BCAF7B1F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{666F2DAF-ECA3-41E4-87C3-075BCAF7B1F9}.Release|x64.ActiveCfg = Release|Any CPU
+		{666F2DAF-ECA3-41E4-87C3-075BCAF7B1F9}.Release|x64.Build.0 = Release|Any CPU
+		{FD48D4B2-7714-4B09-B951-ECC594316411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD48D4B2-7714-4B09-B951-ECC594316411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD48D4B2-7714-4B09-B951-ECC594316411}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FD48D4B2-7714-4B09-B951-ECC594316411}.Debug|x64.Build.0 = Debug|Any CPU
+		{FD48D4B2-7714-4B09-B951-ECC594316411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD48D4B2-7714-4B09-B951-ECC594316411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD48D4B2-7714-4B09-B951-ECC594316411}.Release|x64.ActiveCfg = Release|Any CPU
+		{FD48D4B2-7714-4B09-B951-ECC594316411}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E327C55C-BFA9-46BD-8885-3EBFF2E71B47}
+	EndGlobalSection
+EndGlobal

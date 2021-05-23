@@ -1,0 +1,10 @@
+G:\GoogleDisck\Main\C#\MatlabTest2\MatlabTest2\bin\Debug\MatlabTest2.exe.config
+G:\GoogleDisck\Main\C#\MatlabTest2\MatlabTest2\bin\Debug\MatlabTest2.exe
+G:\GoogleDisck\Main\C#\MatlabTest2\MatlabTest2\bin\Debug\MatlabTest2.pdb
+G:\GoogleDisck\Main\C#\MatlabTest2\MatlabTest2\bin\Debug\MWArray.dll
+G:\GoogleDisck\Main\C#\MatlabTest2\MatlabTest2\bin\Debug\testEx.dll
+G:\GoogleDisck\Main\C#\MatlabTest2\MatlabTest2\obj\Debug\MatlabTest2.csprojAssemblyReference.cache
+G:\GoogleDisck\Main\C#\MatlabTest2\MatlabTest2\obj\Debug\MatlabTest2.csproj.CoreCompileInputs.cache
+G:\GoogleDisck\Main\C#\MatlabTest2\MatlabTest2\obj\Debug\MatlabTest2.csproj.CopyComplete
+G:\GoogleDisck\Main\C#\MatlabTest2\MatlabTest2\obj\Debug\MatlabTest2.exe
+G:\GoogleDisck\Main\C#\MatlabTest2\MatlabTest2\obj\Debug\MatlabTest2.pdb

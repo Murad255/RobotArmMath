@@ -1,0 +1,18 @@
+   
+function V
+q=[0; 1; 2; 0; 5; 0];
+q0=[0; 1; 2; 0; 5; 0];
+
+   for k =0:6
+      Q(q)
+   end
+
+end
+
+function [vQ]=Q(q) 
+
+   for k =0:6
+       vQ(k)=q(k)-q0(k)
+   end
+   q0=q;
+end
